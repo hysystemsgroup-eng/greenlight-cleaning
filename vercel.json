@@ -1,5 +1,11 @@
 {
-    "rewrites": [
-          { "source": "/(.*)", "destination": "/index.html" }
-    ]
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "greenlightclean.com.au" }],
+      "destination": "https://www.greenlightclean.com.au/$1",
+      "statusCode": 301
+    }
+  ]
 }

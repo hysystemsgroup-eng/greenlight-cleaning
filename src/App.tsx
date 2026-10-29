@@ -18,7 +18,7 @@ const SMS = "sms:0430230971";
 const EMAIL = "Info@greenlightclean.com.au";
 const MAILTO = "mailto:Info@greenlightclean.com.au?subject=Cleaning%20Quote";
 const WA = "https://wa.me/61430230971?text=Hi%20Greenlight%2C%20I%27d%20like%20a%20cleaning%20quote.%20Here%20are%20my%20property%20photos%2Fvideos.";
-const SITE_URL = "https://greenlight-cleaning.vercel.app";
+export const SITE_URL = "https://www.greenlightclean.com.au";
 
 /* ============================================================
    TYPES
@@ -89,7 +89,7 @@ const NDIS_PROVIDERS: string[] = [
   "Australian Unity", "Silverchain", "HammondCare", "MiCare", "Fronditha Care"
 ];
 
-const SERVICES: Record<string, Service> = {
+export const SERVICES: Record<string, Service> = {
   "regular-domestic": {
     icon: "home",
     name: "Regular Domestic Cleaning",
@@ -1391,7 +1391,7 @@ interface SuburbPage {
   nearbySuburbs: string[];
 }
 
-const SUBURBS: Record<string, SuburbPage> = {
+export const SUBURBS: Record<string, SuburbPage> = {
   brighton: {
     slug: "brighton",
     name: "Brighton",
@@ -3616,7 +3616,7 @@ Single source of truth so no page can inherit another page's tags.
 ============================================================ */
 interface PageMeta { title: string; description: string; }
 
-const NOT_FOUND_META: PageMeta = {
+export const NOT_FOUND_META: PageMeta = {
   title: "Page not found | Greenlight Cleaning",
   description: "The page you are looking for could not be found. Browse our Melbourne cleaning services or get in touch for a fast, no obligation quote."
 };
@@ -3663,7 +3663,7 @@ const SERVICE_META_DESCRIPTIONS: Record<string, string> = {
   "window-cleaning": "Streak free interior and accessible exterior window cleaning across Melbourne, including sills, tracks and flyscreens, as a standalone or add on."
 };
 
-function seoForPath(pathname: string): PageMeta {
+export function seoForPath(pathname: string): PageMeta {
   const path = pathname.length > 1 && pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
   if (STATIC_PAGE_META[path]) return STATIC_PAGE_META[path];
 
