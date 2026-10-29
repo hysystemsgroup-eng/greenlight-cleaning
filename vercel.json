@@ -2,8 +2,178 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/:p((?:house-cleaning/)?house-cleaning-(?:in-)?brighton.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas/brighton-cleaning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p((?:house-cleaning/)?house-cleaning-(?:in-)?hampton.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas/hampton-cleaning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p((?:house-cleaning/)?house-cleaning-(?:in-)?camberwell.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas/camberwell-cleaning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p((?:house-cleaning/)?house-cleaning-(?:in-)?malvern.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas/malvern-cleaning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p((?:house-cleaning/)?house-cleaning-(?:in-)?toorak.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas/toorak-cleaning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p((?:house-cleaning/)?house-cleaning-(?:in-)?glen-iris.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas/glen-iris-cleaning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p((?:house-cleaning/)?house-cleaning-(?:in-)?hawthorn.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas/hawthorn-cleaning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p((?:house-cleaning/)?house-cleaning-(?:in-)?bentleigh-east.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas/bentleigh-east-cleaning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(end-of-lease-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/end-of-lease",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(house-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/regular-domestic",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(regular-domestic-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/regular-domestic",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(domestic-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/regular-domestic",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(carpet-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/deep-cleaning",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(deep-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/deep-cleaning",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(window-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/window-cleaning",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(commercial-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/commercial",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(office-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/commercial",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(ndis-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/ndis",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(aged-care-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/aged-care",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(strata-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/strata",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(airbnb-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/airbnb-short-term-rental",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(builders-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/builders",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(post-construction-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/builders",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(bond-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/end-of-lease",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(move-in-cleaning.*)",
+      "destination": "https://www.greenlightclean.com.au/services/move-in",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(services-in-.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(areas-we-service.*)",
+      "destination": "https://www.greenlightclean.com.au/service-areas",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(about-us.*)",
+      "destination": "https://www.greenlightclean.com.au/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(contact-us.*)",
+      "destination": "https://www.greenlightclean.com.au/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(get-a-quote.*)",
+      "destination": "https://www.greenlightclean.com.au/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(quote.*)",
+      "destination": "https://www.greenlightclean.com.au/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(our-work.*)",
+      "destination": "https://www.greenlightclean.com.au/gallery",
+      "statusCode": 301
+    },
+    {
+      "source": "/:p(blog.*)",
+      "destination": "https://www.greenlightclean.com.au/",
+      "statusCode": 301
+    },
+    {
       "source": "/(.*)",
-      "has": [{ "type": "host", "value": "greenlightclean.com.au" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "greenlightclean.com.au"
+        }
+      ],
       "destination": "https://www.greenlightclean.com.au/$1",
       "statusCode": 301
     }
